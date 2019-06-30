@@ -1,0 +1,42 @@
+.bookitem__details {
+    display: flex;
+    align-items: flex-start;
+}
+
+.bookitem h2 {
+    font-size: 30px;
+}
+
+.bookitem__details__bookcover{
+    width: 190px;
+    height: 300px;
+}
+
+.bookitem img {
+    width: 190px;
+    flex: 0 0;
+}
+
+.bookitem {
+    text-align: center;
+}
+
+.bookitem__details__bookinfo .description {
+    text-align: left;
+}
+
+.bookitem__details__bookinfo {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.authorandprice {
+    margin-top: 5px;
+}
+
+.bookitem hr {
+    width: 90%;
+}

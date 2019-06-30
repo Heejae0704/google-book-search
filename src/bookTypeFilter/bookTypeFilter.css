@@ -1,0 +1,3 @@
+.booktypefilter__form>span::after {
+    content:"\00a0"
+}

@@ -1,0 +1,21 @@
+.filtersection {
+    font-size: 20px;
+    background-color: #DEDEDE;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filtersection>span::after {
+    content: "\00a0\00a0\00a0\00a0";
+}
+
+.filtersection select {
+    height: 25px;
+}
+
+.filtersection form {
+    display: flex;
+    align-items: center;
+}

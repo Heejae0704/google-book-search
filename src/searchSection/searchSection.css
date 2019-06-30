@@ -1,0 +1,28 @@
+.searchsection {
+    text-align: center;
+    background-color: #ABABAB;
+    height: 45px;
+}
+
+.searchsection__form {
+    padding-top: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchsection__form input {
+    height: 20px;
+    width: 200px;
+}
+
+.searchsection__form label::after, .searchsection__form span::after {
+    content: "\00a0"
+}
+
+.searchsection__form button {
+    font-size: 15px;
+    border-radius: 3px;
+    height: 25px;
+}
